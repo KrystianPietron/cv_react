@@ -1,0 +1,16 @@
+.Summation__section {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 70vw;
+    padding-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+
+.Summation__section--h3 {
+    width: 20vw;
+}
+
+.Summation__section--span {
+    width: 50vw;
+}

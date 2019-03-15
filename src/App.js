@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
-import Head from './Components/Head'
+import React from 'react';
 import './App.css'
 
+import Head from './Components/Head'
+import Summation from './Components/Summation'
 
-class App extends Component {
-  render() {
-    return (
-      <section className="App">
-        <Head />
-      </section>
-    );
-  }
-}
+const App = props => (
+  <section className="App">
+    <Head />
+    <Summation />
+  </section>
+);
 
 export default App;

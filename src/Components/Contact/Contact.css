@@ -1,10 +1,20 @@
-.Contact__section{
-    height: 30vh;
-    margin: 5px 10px 5px 10px;
-    display: flex;
-    align-items: flex-end;
+.Contact__section {
+    font-size: 1vw;
+    margin: 18% 10px 5px 10px;
+    
 }
 
-.Contact__section-ul-li{
+.Contact__section--ul {
     list-style-type: none;
+}
+
+.Contact__section--ul--li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Contact__section--ul--li--a {
+    text-decoration: none;
+    margin: 0 0 0 10px;
 }
