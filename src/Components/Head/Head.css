@@ -1,8 +1,21 @@
-.Head__section{
+.Head__section--div{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 15vh;
+    
+}
+.Head__section{
     margin-top: 10vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 15vh;
+    width: 70vw;
+}
+
+.Head__section--h2{
+    text-decoration-line: overline;
+    text-decoration-style: solid;
+    font-size: 2vw;
 }

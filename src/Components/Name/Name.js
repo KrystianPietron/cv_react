@@ -2,12 +2,12 @@ import React from 'react'
 import './Name.css'
 
 const Name = props => (
-    <section className="Name__section">
-        <p className="Name__section--p">
+    <h1 className="Name__section">
+        <span className="Name__section--p">
             Krystian<br />
             Pietroń
-        </p>
-    </section>
+        </span>
+    </h1>
 )
 
 export default Name
