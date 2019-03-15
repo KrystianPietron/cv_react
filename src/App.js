@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import Foto from './Components/Foto'
+import Head from './Components/Head'
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Foto />
-      </div>
+      <section className="App">
+        <Head />
+      </section>
     );
   }
 }

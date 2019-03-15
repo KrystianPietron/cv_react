@@ -1,0 +1,8 @@
+.Head__section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    margin-top: 10vh;
+}

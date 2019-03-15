@@ -1,0 +1,15 @@
+.Name__section{
+        font-size: 50px;
+        font-size: 8vw;
+        font-size: 14vh;
+        font-family: Lato, 'Open Sans', Helvetica, Arial;
+        font-weight: 900;
+        line-height: 1.1;
+        margin: 5px 10px 5px 10px;
+        text-transform: uppercase;
+        display: inline-block;
+}
+.Name__section--p {
+    text-shadow: 4px 4px 0 #6fd1bd;
+    transition: text-shadow 0.2s ease-in-out;
+  }
